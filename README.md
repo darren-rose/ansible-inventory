@@ -2,12 +2,12 @@
 
 Ansible inventory from a json file served via github pages
 
-### Step 1
+### Set environment variable
 
-Set the following environment variable to url of the json file
+Set the following environment variable to url of your json file
 
 ```export INVENTORY_FILE_URL=https://darren-rose.github.io/ansible-inventory/inventory.json```
 
-### Step2 
+### Ping databases group 
 
 ```ansible -i ./inventory.sh -m ping databases```
