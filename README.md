@@ -23,3 +23,13 @@ e.g. `export INVENTORY_FILE_URL=https://darren-rose.github.io/ansible-inventory/
 ### Execute playbook on a single host 
 
 `ansible-playbook -i ./inventory.sh  -e "hosts=host6.example.com" hostname.yml`
+
+### Set inventory.sh as default source
+
+Add ~/.ansible.cfg
+
+`inventory = ~/<full-path>/inventory.sh`
+
+Then
+
+`ansible-playbook -e "hosts=host6.example.com" hostname.yml`
