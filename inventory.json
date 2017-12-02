@@ -17,6 +17,18 @@
       "host6.example.com"
     ]
   },
+  "rabbitmq-prod": {
+    "hosts": [
+      "host7.example.com",
+      "host8.example.com"
+    ]
+  },
+  "elasticsearch-prod": {
+    "hosts": [
+      "host9.example.com",
+      "host10.example.com"
+    ]
+  },
   "_meta": {
     "hostvars": {}
   }
