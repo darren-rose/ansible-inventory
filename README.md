@@ -8,15 +8,15 @@ Set the following environment variable to url of your json file
 
 e.g. `export INVENTORY_FILE_URL=https://darren-rose.github.io/ansible-inventory/inventory.json`
 
-### List hosts in webservers group 
+### List hosts in a group 
 
 `ansible -i ./inventory.sh --list-hosts webservers`
 
-### Ping databases group 
+### Ping hosts in a group 
 
 `ansible -i ./inventory.sh -m ping databases`
 
-### Execute playbook on databases group 
+### Execute playbook on a group 
 
 `ansible-playbook -i ./inventory.sh  -e "hosts=databases" hostname.yml`
 
