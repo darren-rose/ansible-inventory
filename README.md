@@ -8,6 +8,10 @@ Set the following environment variable to url of your json file
 
 e.g. `export INVENTORY_FILE_URL=https://darren-rose.github.io/ansible-inventory/inventory.json`
 
+### List hosts in webservers group 
+
+`ansible -i ./inventory.sh --list-hosts webservers`
+
 ### Ping databases group 
 
 `ansible -i ./inventory.sh -m ping databases`
