@@ -20,6 +20,10 @@ e.g. `export INVENTORY_FILE_URL=https://darren-rose.github.io/ansible-inventory/
 
 `ansible-playbook -i ./inventory.sh  -e "hosts=databases" hostname.yml`
 
+### Execute playbook on multiple groups 
+
+`ansible-playbook -i ./inventory.sh  -e "hosts=databases,webservers" hostname.yml`
+
 ### Execute playbook on a single host 
 
 `ansible-playbook -i ./inventory.sh  -e "hosts=host6.example.com" hostname.yml`
