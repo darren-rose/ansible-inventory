@@ -24,12 +24,12 @@ e.g. `export INVENTORY_FILE_URL=https://darren-rose.github.io/ansible-inventory/
 
 `ansible-playbook -i ./inventory.sh  -e "hosts=host6.example.com" hostname.yml`
 
-### Set inventory.sh as default source
+### Set default inventory source
 
-Add ~/.ansible.cfg
+edit `~/.ansible.cfg` and add the following:
 
 `inventory = ~/<full-path>/inventory.sh`
 
-Then
+and now inventory.sh is used by default:
 
 `ansible-playbook -e "hosts=host6.example.com" hostname.yml`
