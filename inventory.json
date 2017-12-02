@@ -11,6 +11,12 @@
       "host4.example.com"
     ]
   },
+  "mongo-prod": {
+    "hosts": [
+      "host5.example.com",
+      "host6.example.com"
+    ]
+  },
   "_meta": {
     "hostvars": {}
   }
