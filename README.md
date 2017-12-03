@@ -8,7 +8,7 @@ The url of your inventory file and the path to the inventory.sh script
 
 `export INVENTORY_FILE_URL=https://darren-rose.github.io/ansible-inventory/inventory.json`
 
-`export ANSIBLE_HOST=/path-to/inventory.sh`
+`export ANSIBLE_HOSTS=/path-to/inventory.sh`
 
 ### List hosts in a group 
 
