@@ -20,7 +20,7 @@ The url of your inventory file and the path to the inventory.sh script
 
 ### Execute playbook on a group 
 
-`ansible-playbook-e "hosts=databases" hostname.yml`
+`ansible-playbook -e "hosts=databases" hostname.yml`
 
 ### Execute playbook on multiple groups 
 
