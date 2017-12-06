@@ -6,7 +6,7 @@ Ansible inventory from a json file served via github pages
 
 The url of your inventory file and the path to the inventory.sh script
 
-`export INVENTORY_FILE_URL=https://darren-rose.github.io/ansible-inventory/inventory.json`
+`export INVENTORY_URL=https://darren-rose.github.io/ansible-inventory/inventory.json`
 
 `export ANSIBLE_HOSTS=/path-to/inventory.sh`
 
