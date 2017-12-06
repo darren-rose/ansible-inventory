@@ -1,2 +1,2 @@
 #!/bin/bash
-curl $INVENTORY_FILE_URL
+curl $INVENTORY_URL
